@@ -100,7 +100,7 @@ ul.list{list-style: none;}
 .mt-30{margin-top:30px;}
 .mb-20{margin-bottom: 20px;}
 .mb-30{margin-bottom: 30px;}
-.text-label{color: #fa4616;}
+.text-label{color: #1B5282;}
 .text-primary{color: #000;}
 .cv-title{color: #000;}
 .img-profile{width: 130px;}
@@ -221,7 +221,7 @@ ul.list{list-style: none;}
     height: 15px;
     position: absolute;
     left: -34px;
-    background: #bb3209;
+    background: #1B5282;
     top: 5px;
 }
 .skill li{
@@ -230,6 +230,7 @@ ul.list{list-style: none;}
     color: #000;
     margin-bottom: 5px;
     display: flex;
+	font-size:12px;
     justify-content: space-between;
     text-transform: capitalize;
         border-radius: 3px;
