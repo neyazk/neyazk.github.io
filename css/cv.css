@@ -264,3 +264,14 @@ li.current{
 .mb-li-20 li{
   margin-bottom: 15px;
 }
+.tbl-responsive
+{
+  overflow: scroll;
+  width: 100%;
+}
+.tbl-responsive tr:nth-child(odd){
+  background-color:#ddd; 
+}
+.tbl-responsive td{
+  padding: 8px;
+}
