@@ -88,17 +88,6 @@ div[class^=col-]{
 .pr-0{padding-right:0px!important;}
 ul.list{list-style: none;}
 
-@media screen (max-width: 500px;)
-{
-  .col-3{
-  width: 100%;
-}
-.experience li:last-child{
-	margin-bottom:50px;
-}
-
-
-
 .label{font-weight: bold;}
 .bold{font-weight: bold;}
 .inline-block{display: inline-block;}
