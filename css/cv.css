@@ -275,3 +275,21 @@ li.current{
 .tbl-responsive td{
   padding: 8px;
 }
+
+@media only screen and (max-width: 500px) {
+    .col-3, .col-6{
+      width: 100%;
+    }
+    .contact-info{
+      padding-left: 20px;
+      flex-direction: row-reverse
+    }
+    .contact-info:first-child{
+      margin-top: 20px;
+    }
+    [class^="icon-"], [class*=" icon-"]{
+       padding-right: 5px;
+    }
+    .pl-0{padding-left: 10px!important;padding-bottom: 20px!important;}
+    .pulse{left: 127px;}
+}
